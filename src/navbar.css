@@ -1,0 +1,155 @@
+/* MAIN NAVBAR */
+.navbar {
+  width: 100%;
+  background-color: #1e40af;
+  padding: 12px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-left {
+  cursor: pointer;
+}
+
+.nav-title {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* Desktop Nav Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links button {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links button:hover {
+  color: #93c5fd;
+  transform: translateY(-2px);
+}
+
+/* Social Icons (Desktop) */
+.social-icons a {
+  margin-left: 12px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #93c5fd;
+}
+
+/* HAMBURGER ICON */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* Menu animation */
+.bar1-open {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.bar2-open {
+  opacity: 0;
+}
+
+.bar3-open {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: white;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: right;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  animation: fadeDown 0.3s ease-out;
+}
+
+.mobile-menu button {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 10px 0;
+  font-size: 1rem;
+  color: #1e40af;
+  text-align: right;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.mobile-menu button:last-child {
+  border-bottom: none;
+}
+
+.mobile-menu button:hover {
+  color: #14338d;
+}
+
+/* Social icons mobile */
+.mobile-social {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.mobile-social a {
+  margin-left: 12px;
+  color: #1e40af;
+}
+
+.mobile-social a:hover {
+  color: #14338d;
+}
+
+/* RESPONSIVE RULE */
+@media (max-width: 550px) {
+  .nav-links {
+    display: none;  /* Hide desktop links */
+  }
+
+  .hamburger {
+    display: block;  /* Show hamburger */
+  }
+}
+
+/* Animation */
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

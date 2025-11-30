@@ -1,0 +1,25 @@
+[
+  {
+    "gene": "TP53",
+    "cancer": "Multiple cancers",
+    "info": "Encodes p53 protein, cell cycle regulator"
+  },
+  {
+    "gene": "BRCA1",
+    "cancer": "Breast Cancer",
+    "info": "DNA repair related tumor suppressor"
+  },
+  {
+    "gene": "KRAS",
+    "cancer": "Colon, Lung, Pancreatic",
+    "info": "Involved in cell signal transduction"
+  },
+  {
+    "cancerType": "Lung Cancer",
+    "genes": ["TP53", "KRAS", "EGFR"]
+  },
+  {
+    "cancerType": "Breast Cancer",
+    "genes": ["BRCA1", "BRCA2", "TP53"]
+  }
+]
