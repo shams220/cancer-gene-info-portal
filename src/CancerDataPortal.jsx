@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { Home } from "lucide-react";
 import cancersData from "./data/cancers.json";
 import genesData from "./data/genes.json";
-import './CancerDataPortal.css'
 import Footer from './footer.jsx'
 import Navbar from "./navbar.jsx";
 export default function CancerDataPortal() {

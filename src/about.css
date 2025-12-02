@@ -87,4 +87,33 @@
   font-size: 1rem;
   color: #555;
 }
+.about-card-guide{
+    text-align: center;
+     background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  width: 22rem;
+}
+.about-card-guide h3{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 8px;
+  
+}
+.about-card-guide p{
+     color: #555;
+  line-height: 1.5;
+}
+.guide h2{
+    margin-top: 3rem;
+}
+.guide{
+    display: flex;
+    flex-direction: column;
 
+    justify-content: center;
+    align-content: center;
+        align-items: center;
+}

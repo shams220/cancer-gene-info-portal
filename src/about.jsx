@@ -48,21 +48,33 @@ export default function About() {
 
           <div className="team-grid">
             <div className="team-card">
-              <h3 className="team-name">Gulnaz Parvin</h3>
+              <h3 className="team-name">Gulnaaz Parveen</h3>
               <p className="team-role">Biotech Engineer</p>
             </div>
 
             <div className="team-card">
               <h3 className="team-name">Alam Zia</h3>
-              <p className="team-role">Collaborator (ECE)</p>
+              <p className="team-role">DevOps Developer</p>
             </div>
 
             <div className="team-card">
               <h3 className="team-name">Shams Alam</h3>
-              <p className="team-role">Collaborator (ECE)</p>
+              <p className="team-role">FullStack Developer</p>
             </div>
           </div>
+       
+       
         </div>
+      <div className="guide">
+          <h2 className="team-title">Our Guide</h2>
+        <div className="about-card-guide">
+            <h3>Mrs.Shivi sharma</h3>
+            <p>
+            Assistant professor & Guide, Biotechnology  Dept. HCST- Mathura
+            </p>
+          
+          </div>
+      </div>
       </div>
       <Footer />
     </div>
